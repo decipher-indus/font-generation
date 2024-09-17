@@ -1,3 +1,4 @@
+#!/usr/bin/env fontforge -lang=py -script
 import os
 import fontforge
 
@@ -32,5 +33,5 @@ font.selection.all()
 font.autoWidth(150, minBearing = 10, maxBearing = 300)
 
 # Save the font
-font.generate('myfont.ttf')
-
+font.generate('indus-font.ttf')
+font.generate('indus-font.woff2')
